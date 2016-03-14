@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - 0.12
+install:
+  - npm install
+#script:
+# - gulp
+#deploy:
+# - skip_cleanup: true
+# blacklist
+branches:
+  except:
+    - develop
+
+# whitelist
+branches:
+  only:
+    - master
