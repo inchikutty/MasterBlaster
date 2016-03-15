@@ -7,7 +7,6 @@ Objective is to build a game "master-blaster 10000" with phaser game engine.
 
 Tools used
 ----------
-
 express generator, passport-stormpath, qunit, phaser, bootstrap, travis CI
 
 

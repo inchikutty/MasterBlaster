@@ -11,7 +11,7 @@ router.get('/register', function(req, res) {
 
 
 // Register a new user to Stormpath.
-router.get('/register', function(req, res) {
+router.post('/register', function(req, res) {
 
   var username = req.body.username;
   var password = req.body.password;
